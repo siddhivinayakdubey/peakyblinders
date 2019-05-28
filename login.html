@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+</head>
+<script>
+  function enroll(){
+    var username = document.getElementById("username");
+    var number = document.getElementById("number");
+
+    if (username == NULL|| username="") {
+      alert("Username can't me empty");
+      return false;
+      }
+    else if (number.length<10 || number.length>10) {
+      alert("Wrong contact number");
+
+    }
+  }
+</script>
+<body>
+
+  <div class="login">
+
+    <label for="username">username</label>
+      <input class="username" type="text" placeholder="Name" id="username">
+      <label for="number">number</label>
+    <input class="number" type="number" placeholder="Contact Number" id="number">
+    <input class="submit" type="submit" value="Submit" onclick="enroll()">
+  </div>
+</body>
+</html>

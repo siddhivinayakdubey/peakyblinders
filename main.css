@@ -1,0 +1,156 @@
+body {
+  background-image: url("bodybg.png");
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Special Elite', cursive;
+  font-family: 'VT323', monospace;
+  font-family: 'Monoton', cursive;
+  font-family: 'Fredericka the Great', cursive;
+}
+#Home{
+  color: white;
+}
+
+.navbar-fluid {
+  background-image: url("whitebg.png");
+  position: sticky;
+  top: 0;
+  padding-bottom: 10px;
+  z-index: 10;
+}
+
+.nav-link {
+  color: black;
+  font-family: "Special Elite";
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+}
+
+.nav-items {
+  padding: 0 100px 0 100px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 10px;
+  top: -7px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+.container-top {
+  background-image: url("blindcover.png");
+  background-size: cover;
+  padding-bottom: 600px;
+  padding-top: 100px;
+  color: white;
+  margin-top: -10px;
+  border-radius: 50px;
+  background-position: center;
+}
+
+.pb {
+  font-size: 100px;
+  font-family: Kaushan;
+}
+.btn1{
+  padding-bottom: 500px;
+  margin-right:25;
+  margin-top: 50;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border-color: white;
+  position: relative;
+  top: 50px;
+  font-family: 'Special Elite', cursive;
+  font-size: 70px;
+}
+.p1 {
+  font-size: 50px;
+  font-family: Sacramento;
+}
+
+.container-About{
+  background-image: url("wbbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Anton";
+  color: black;
+  font-weight: bold;
+  width: 750px;
+  background-size: cover;
+  border-radius: 50px;
+}
+#About{
+  color: white;
+  padding: 25px 0px 25px 0px;
+}
+#Assistance{
+  color: white;
+  padding-top: 50px;
+  padding-bottom: -50px;
+}
+.carousel{
+
+  border-radius: 50px;
+  width: 800px;
+}
+#carouselExampleCaptions{
+  margin: 80px;
+  border-radius: 50px;
+  width: 100px;
+}
+
+.carousel-inner{
+  border-radius: 50px;
+}
+.carousel-caption{
+  color: black;
+}
+
+.contact-me{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.bottom-container{
+  background-image: url("whitebg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+  .butn {
+  background-image: url("bodybg.png");
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px black;
+  font-family: Montserrat;
+  color: #fcfcfc;
+  font-size: 31px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: grey;
+
+  text-decoration: none;
+}
